@@ -1,0 +1,104 @@
+/* Fundo da página */
+body {
+    background-color: #f5bb8d;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Título */
+h1 {
+    color: #010e06;
+    text-align: center;
+}
+
+h2 {
+    color: #010e06;
+    text-align: center;
+}
+
+/* Coluna */
+ul {
+    text-align: center; 
+    list-style-position: inside; 
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+/* Parágrafo */
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Imagem */
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f06868;
+}
+
+/* Link */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500;
+}
+
+/* Botão */
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #246f47;
+}
+
+/* Mensagem */
+#mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
